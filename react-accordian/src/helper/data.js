@@ -1,51 +1,33 @@
-import css from "../assets/css.png";
-import python from "../assets/python.png";
-import java from "../assets/java.png";
-import cpp from "../assets/cpp.png";
-import go from "../assets/go.png";
-import php from "../assets/php.png";
-import javascript from "../assets/javascript.png";
-import html from "../assets/html.png";
-
-export const languages = [
-  {
-    name: "javascript",
-    img: javascript,
-    options: ["Website Development", "1995", "Brendan Eich"],
-  },
-  {
-    name: "html",
-    img: html,
-    options: ["Website Development", "1993", "Tim Berners-Lee"],
-  },
-  {
-    name: "css",
-    img: css,
-    options: ["Website Design", "1994", "Håkon Wium Lie"],
-  },
-  {
-    name: "python",
-    img: python,
-    options: ["AI", "1980", "Guido van Rossum"],
-  },
-  {
-    name: "java",
-    img: java,
-    options: ["BackEnd", "1990s", "Sun Microsystems"],
-  },
-  {
-    name: "c++",
-    img: cpp,
-    options: ["Game Dev.", "1980s", "Bjarne Stroustrup"],
-  },
-  {
-    name: "go",
-    img: go,
-    options: ["Network", "2009", "Robert Griesemer"],
-  },
-  {
-    name: "php",
-    img: php,
-    options: ["BackEnd", "1995", "	Rasmus Lerdorf"],
-  },
-];
+const questions = [
+    {
+      id: 1,
+      title: 'Do I have to allow the use of cookies?',
+      info:
+        'Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.',
+    },
+    {
+      id: 2,
+      title: 'How do I change my My Page password?',
+      info:
+        'Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.',
+    },
+    {
+      id: 3,
+      title: 'What is BankID?',
+      info:
+        'Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.',
+    },
+    {
+      id: 4,
+      title: 'Whose birth number can I use?',
+      info:
+        'Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.',
+    },
+    {
+      id: 5,
+      title: 'When do I recieve a password ordered by letter?',
+      info:
+        'Locavore franzen fashion axe live-edge neutra irony synth af tilde shabby chic man braid chillwave waistcoat copper mug messenger bag. Banjo snackwave blog, microdosing thundercats migas vaporware viral lo-fi seitan ',
+    },
+  ]
+  export default questions
