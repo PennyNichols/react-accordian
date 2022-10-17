@@ -5,7 +5,7 @@ import Faq from "./components/Faq/Faq";
 function App() {
   return (
     <div className="App">
-      <main>
+      <main className="main d-xl-flex justify-content-around align-items-center">
           <Header title='Frequently Asked Questions About Login' />
           <section className='faq'>
             {questions.map((item) => (
